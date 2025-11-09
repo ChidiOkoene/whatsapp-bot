@@ -17,7 +17,7 @@ USE_LLM = True  # Set to False to use simple template-based messages
 RECIPIENT_NAME = "darling"  # Name of the recipient
 RELATIONSHIP = "romantic partner"  # Your relationship with them
 MESSAGE_STYLE = "sweet and loving, romantic, funny, and cute"  # Style of messages (e.g., "funny", "romantic", "casual")
-MAX_MESSAGE_LENGTH = 100  # Maximum characters in the message
+MAX_MESSAGE_LENGTH = 200  # Maximum characters in the message (increased for longer, more detailed messages)
 
 # 📱 Function to send WhatsApp message instantly
 def send_whatsapp_message():
